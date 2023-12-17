@@ -47,7 +47,7 @@ int main(void)
     return -1;
   }
 
-  curl_easy_setopt(curl, CURLOPT_URL, "https://www.google.com");
+  curl_easy_setopt(curl, CURLOPT_URL, "https://api.openweathermap.org/data/2.5/weather?q=Karachi&appid=7b825f37458912ba5b22873e78b1fc33");
 
   curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
   curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk); 
