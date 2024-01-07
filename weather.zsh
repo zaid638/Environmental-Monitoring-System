@@ -18,7 +18,7 @@ echo "Humidity: $humidity"
 # weather api is from mateo.com
 #"https://api.open-meteo.com/v1/forecast?latitude=24.8608&longitude=67.0104&current=temperature_2m,relative_humidity_2m,apparent_temperature,is_day,pressure_msl"
 
-threshold_temperature_high=35
+threshold_temperature_high=30
 threshold_temperature_low=10
 elastic_email_username="muhammedhm2002@gmail.com"
 elastic_email_password="CA325460E2F14585CE016788459FF95DD659"
