@@ -20,8 +20,8 @@ echo "Humidity: $humidity"
 
 threshold_temperature_high=35
 threshold_temperature_low=10
-elastic_email_username="wagob90084@visignal.com"
-elastic_email_password="29D627F6EC2F6E222D408489EC8F7DE13998"
+elastic_email_username="muhammedhm2002@gmail.com"
+elastic_email_password="CA325460E2F14585CE016788459FF95DD659"
 from_email="muhammedhm2002@gmail.com"
 to_email="muhammedhasanmisba@gmail.com"
 
