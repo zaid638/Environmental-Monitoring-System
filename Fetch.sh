@@ -16,6 +16,8 @@ trap cleanup SIGINT
 #Infinite loop
 while true
 do 
+    echo "----------------------------------------------------------------"
+    echo "----------------------------------------------------------------"
     #precompiled C program to fetch data and extract lattude and longitude
     ./my_program
     
@@ -24,6 +26,7 @@ do
     echo "API call made at $(date)"
 
     ./weather.zsh
-
+    echo "----------------------------------------------------------------"
+    echo "----------------------------------------------------------------"
     sleep $interval
 done
