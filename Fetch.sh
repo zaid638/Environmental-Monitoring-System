@@ -18,9 +18,12 @@ while true
 do 
     #precompiled C program to fetch data and extract lattude and longitude
     ./my_program
+    
 
     #Printing a timestamp(optional)
     echo "API call made at $(date)"
+
+    ./weather.zsh
 
     sleep $interval
 done
