@@ -5,7 +5,7 @@ file="weather_data.json"
 latitude=$(jq -r '.latitude' "$file")
 longitude=$(jq -r '.longitude' "$file")
 temperature=$(jq -r '.current.temperature_2m' "$file")
-humidity=$(jq -r '.current.humidity' "$file")
+humidity=$(jq -r '.current.relative_humidity_2m' "$file")
 temperature_float=$(echo "scale=2; $temperature" | bc)
 
 # Display values to the user
@@ -38,7 +38,7 @@ elif (( $(echo "$temperature_float < 10" | bc -l) ));then
     subject="Low Temperature Alert"
     body="The current temperature ($temperature) is lower than the threshold ($threshold_temperature_low)."
     # Send email using sendemail and Elastic Email SMTP server
-sendemail -f "$from_email" -t "$to_email" -u "$subject" -m "$body" \
+sendemail -f "$from_email" -t "$to_email" -u "$subject" -m "$body" 
     -s smtp.elasticemail.com:2525 -o tls=yes -xu "$elastic_email_username" -xp "$elastic_email_password"
     echo "Email sent."
 else
@@ -47,5 +47,5 @@ fi
 
 
 # Send email using sendemail and Elastic Email SMTP server
-#sendemail -f "$from_email" -t "$to_email" -u "$subject" -m "$body" \
+#sendemail -f "$from_email" -t "$to_email" -u "Temperature Condition" -m "the temperature is normal" \
 #    -s smtp.elasticemail.com:2525 -o tls=yes -xu "$elastic_email_username" -xp "$elastic_email_password"
