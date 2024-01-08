@@ -26,6 +26,9 @@ do
     echo "API call made at $(date)"
 
     ./weather.zsh
+    
+    #text file generate
+    ./generate_report.sh
     echo "----------------------------------------------------------------"
     echo "----------------------------------------------------------------"
     sleep $interval
