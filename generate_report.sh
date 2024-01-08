@@ -19,6 +19,6 @@ text_file="Report.txt"
 json_value=$(jq -r ".$json_key" "$json_file")
 
 # Append the extracted value to the text file
-echo "$(date) Temperature:$json_value K" >> "$text_file"
+echo "$(date) Temperature:$json_value °C" >> "$text_file"
 
 echo "Data appended successfully to $text_file"

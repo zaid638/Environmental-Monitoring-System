@@ -1,10 +1,11 @@
-Mon 08 Jan 2024 09:32:00 PM PKT Temperature:24.5 K
-Mon 08 Jan 2024 09:32:11 PM PKT Temperature:24.5 K
-Mon 08 Jan 2024 09:32:22 PM PKT Temperature:24.5 K
-Mon 08 Jan 2024 05:23:02 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:23:13 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:23:24 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:23:35 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:23:45 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:23:56 PM PKT Temperature:23.7 K
-Mon 08 Jan 2024 05:24:07 PM PKT Temperature:23.7 K
+Mon 08 Jan 2024 09:32:00 PM PKT Temperature:24.5 °C
+Mon 08 Jan 2024 09:32:11 PM PKT Temperature:24.5 °C
+Mon 08 Jan 2024 09:32:22 PM PKT Temperature:24.5 °C
+Mon 08 Jan 2024 05:23:02 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:23:13 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:23:24 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:23:35 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:23:45 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:23:56 PM PKT Temperature:23.7 °C
+Mon 08 Jan 2024 05:24:07 PM PKT Temperature:23.7 °C
+
