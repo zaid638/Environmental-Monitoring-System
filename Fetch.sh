@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Setting the interval in seconds (e.g., 10 seconds)
-interval=10
+#Setting the interval in seconds (e.g., 3600 seconds=1hour)
+interval=3600
 
 # Function to handle cleanup before exiting
 cleanup() {
